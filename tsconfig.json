@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "baseUrl": "src",
+    "declarationDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "composite": true,
+    "lib": ["dom", "esnext"],
+    "typeRoots": [
+      "./types"
+    ]
+  },
+  "include": [
+    "./src/",
+    "./types"
+  ]
+}
